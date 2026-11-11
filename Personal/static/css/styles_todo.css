@@ -1,9 +1,14 @@
 body {
+   
     margin: 0;
-    padding: 40px 16px;
-    font-family: "Segoe UI", Arial, sans-serif;
-    background: RGB(106, 0, 182);
-    color: RGB(107, 4, 181);
+    min-height: 100vh; /* altura del cuerpo de la ventana del navegador */
+
+    display: flex; /* Para alinear facil*/
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+
+    background: RGB(106, 0, 182); /*Color del fondo*/
+    color: RGB(107, 4, 181); /*Color del texto*/
 }
 
 .ContenedorVertical {
