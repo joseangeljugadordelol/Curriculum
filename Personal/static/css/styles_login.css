@@ -1,0 +1,29 @@
+body {
+   
+    margin: 0;
+    min-height: 100vh; /* altura del cuerpo de la ventana del navegador */
+
+    display: flex; /* Para alinear facil*/
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+
+    background: RGB(106, 0, 182); /*Color del fondo*/
+    color: RGB(107, 4, 181); /*Color del texto*/
+}
+
+.ContenedorVertical {
+    background-color: RGB(215, 186, 235);
+    width: 350px; /* Ancho del contenedor */
+    padding: 35px; /* Espacio interior */
+    border-radius: 20px; /* Bordes redondeados*/
+    text-align: center;
+
+    box-shadow: 0 0 25px 1px rgb(0, 0, 0);
+}
+.Boton{
+    background-color: #9500ff;
+    color:rgb(255, 255, 255);
+    border-radius: 20px; /* Bordes redondeados */
+    width: 200px; /* Ancho del boton */
+    padding: 10px; /* Espacio del interior */
+}
