@@ -13,9 +13,10 @@ body {
 
 .ContenedorVertical {
     background-color: RGB(215, 186, 235);
-    width: 350px; /* Ancho del contenedor */
-    padding: 35px; /* Espacio interior */
-    border-radius: 20px; /* Bordes redondeados*/
+    width: 440px; /* Ancho del contenedor */
+    height: 70vh; /* es el alto del contenedor padre (el padre necesita tener una altura definida). */
+    padding: 105px; /* Espacio interior */
+    border-radius: 10px; /* Bordes redondeados*/
     text-align: center;
 
     box-shadow: 0 0 25px 1px rgb(0, 0, 0);
@@ -24,6 +25,6 @@ body {
     background-color: #9500ff;
     color:rgb(255, 255, 255);
     border-radius: 20px; /* Bordes redondeados */
-    width: 200px; /* Ancho del boton */
+    width: 350px; /* Ancho del boton */
     padding: 10px; /* Espacio del interior */
 }
